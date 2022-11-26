@@ -1,6 +1,6 @@
 import { HomeRouter, AdminRouter, CustomerRouter } from "../routes";
 
-export const Apps = [
+export const APPS = [
   {
     subdomain: "www",
     app: HomeRouter,

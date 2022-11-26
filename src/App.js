@@ -3,11 +3,11 @@ import React from "react";
 import { getApp } from "./utils/helper";
 
 const App = () => {
-  const DomainApp = getApp();
-
+  const App = getApp();
+  console.log({ App });
   return (
     <div className="App">
-      <DomainApp />
+      <App />
     </div>
   );
 };
